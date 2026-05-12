@@ -66,3 +66,7 @@ x = 123
 wynik = str(x).rjust(6,"0")
 
 print(wynik)
+
+print(16.48-16.71)
+
+b = "Hello, Wordl!"
