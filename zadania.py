@@ -24,3 +24,19 @@ data_obiekt = datetime.strptime(data, '%m/%d/%Y') #parsowanie daty
 data_ladna = data_obiekt.strftime( '%Y-%m-%d')
 # zmiana formatu daty na inny - string (teskt)
 print(data_ladna)
+
+lista = tekst_CSV.split()
+print(lista)
+
+lista[1] = lista[1].title()
+lista[2] = lista[2].title()
+print(lista[1],lista[2])
+
+lista = ["Ala", "ma", "kota"]
+         
+tekst= ' '.join(lista)
+
+#przed krpką separator, który połączy elementy listy
+
+print(tekst)
+
