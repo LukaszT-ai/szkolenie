@@ -1,0 +1,22 @@
+#imie = input("podaj swoje imie:")
+#print("witaj, " + imie + "!")
+
+Cena = 100000
+
+Marka = input("podaj marke:")
+
+if Marka == "":
+    print("nie wpisano pojazdu")
+else:
+
+    if Marka == "Opel":
+        Cena=Cena*0.85
+    elif Marka == "Skoda":
+        Cena=Cena*0.82
+    elif Marka == "Audi":
+        Cena=Cena*0.80
+    else:
+        Cena=Cena*0.95
+    
+    print(f"Pojazd kosztuje: {Cena:.0f}PLN")
+
