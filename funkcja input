@@ -18,5 +18,5 @@ else:
     else:
         Cena=Cena*0.95
     
-    print(f"Pojazd kosztuje: {Cena:.0f}PLN")
+    print
 
